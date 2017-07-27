@@ -1,0 +1,17 @@
+---
+- name: Clean dnf caches
+  command: dnf clean all
+
+- name: Update all default packages to avoid conflicts - PLEASE BE PATIENT, THIS TAKES A WHILE ON FIRST RUN
+  dnf:
+    name: "*"
+    state: latest
+
+- name: Install Core Packages
+  dnf:
+    name: "{{ item }}"
+    state: latest
+  with_items:
+    - vim
+    - tree
+...

@@ -1,0 +1,8 @@
+---
+- name: Fedora Configuration Script
+  hosts: localhost
+
+  tasks:
+  - name: "Install core packages"
+    include: core_packages.yml
+...
