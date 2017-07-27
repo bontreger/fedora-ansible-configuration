@@ -3,6 +3,10 @@
   hosts: localhost
 
   tasks:
+  - name: "Include vars files"
+    include_vars:
+      dir: '../vars'
+        
   - name: "Install core packages"
-    include: core_packages.yml
+    include: install_core_packages.yml
 ...
