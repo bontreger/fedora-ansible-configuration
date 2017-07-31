@@ -3,4 +3,6 @@ core_package_list:
   - vim
   - tree
   - git
+  - terminator
+  - gnome-tweak-tool
 ...

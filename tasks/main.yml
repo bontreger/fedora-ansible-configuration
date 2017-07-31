@@ -9,4 +9,8 @@
         
   - name: "Install core packages"
     include: install_core_packages.yml
+
+  - name: "Install gnome extensions"
+    include: install_gnome_extensions.yml
+
 ...
