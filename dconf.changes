@@ -1,0 +1,12 @@
+To find gnome tweaks in gnome-tweak-tool
+Run gnome-tweak-tool -v from CLI
+Changes are reported to terminal, use those to create automation
+
+Change: org.gnome.desktop.interface clock-show-seconds -> True
+Change: org.gnome.shell enabled-extensions -> ['background-logo@fedorahosted.org', 'apps-menu@gnome-shell-extensions.gcampax.github.com']
+Change: org.gnome.shell enabled-extensions -> ['background-logo@fedorahosted.org', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com']
+Change: org.gnome.shell enabled-extensions -> ['background-logo@fedorahosted.org', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'places-menu@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com'
+Change: org.gnome.desktop.interface clock-show-date -> True
+Change: org.gnome.desktop.wm.preferences button-layout -> appmenu:minimize,maximize,close
+Change: org.gnome.settings-daemon.plugins.xsettings overrides -> {'Gtk/ShellShowsAppMenu': 1}
+

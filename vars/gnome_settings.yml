@@ -1,0 +1,7 @@
+---
+gnome_vars:
+  clock-date:
+    key: /org/gnome/desktop/interface/clock-show-date
+    value: true
+
+...

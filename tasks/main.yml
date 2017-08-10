@@ -13,4 +13,7 @@
   - name: "Install gnome extensions"
     include: install_gnome_extensions.yml
 
+  - name: "Configure gnome"
+    include: configure_gnome.yml
+
 ...
