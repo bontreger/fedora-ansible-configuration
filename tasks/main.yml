@@ -1,6 +1,7 @@
 ---
 - name: Fedora Configuration Script
   hosts: localhost
+  become: true
 
   tasks:
   - name: "Include vars files"
